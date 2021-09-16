@@ -31,6 +31,10 @@ public class Employee implements Serializable {
     return this;
   }
 
+  public String getEmpGrade() {
+    return empGrade;
+  }
+
   public String getEmpID() {
     return empID;
   }
